@@ -46,3 +46,9 @@ var trimResult = day.trim();
 console.log(`After trim: ${trimResult.length}`);
 var totalRemovedSpaces = day.length - trimResult.length;
 console.log(`Total Spaces removed after trim() is: ${totalRemovedSpaces}`);
+
+console.log(`========== toString() ===============`);
+var age = 22;
+console.log(`Age: ${age}, and it's type : ${typeof age}`);
+var ageStr = age.toString();
+console.log(`Age: ${ageStr}, and it's type : ${typeof ageStr}`);
